@@ -1,13 +1,8 @@
-# Restaurant Management System - Sales, Inventory and Operations
+# Golden Coop - Sales, Inventory and Operations
 
 Database design for a small fast-food restaurant business with two branches and one independent warehouse. This is a Database Management Systems course project built with **Java** and **MySQL**.
 
 **Team:** Abdallah Hattab, Sondos Hammad
-
-The restaurant name is not yet selected. This project uses an independent identity and is not affiliated with KFC or any other brand.
-Operational background was provided by the team from an interview account about a larger restaurant business. The two-branch scope and the workflows below are adapted design assumptions, to be validated with the intended restaurant before deployment.
-
-This file describes the data model: every entity, its attributes, and every relationship. It is written so that anyone can draw the ER diagram from it without asking questions.
 
 ---
 
@@ -641,15 +636,4 @@ Requested/in-transit/completed transfers and sent-versus-received differences.
 Recorded waste and physical count discrepancies, displayed separately.
 Staff by site/job, current monthly salary totals and actual salary payments by month. Historical salary balances are not inferred.
 Maintenance requests by status/site, completed maintenance costs and repeated equipment descriptions.
-Implementation deliverables also include a connection configuration file, database setup/sample-data script, runnable Java application and a documented backup/restore procedure. This model is a design specification, not a claim that those features are implemented. Formal sample-query requirements and the drawn ER diagram must be prepared separately.
-
-## 13. Decisions to validate with the restaurant
-
-Final restaurant name, actual client identity, branch locations and warehouse address.
-Confirmation of interview information, direct-delivery routes and intended role permissions.
-Acceptance of pay-at-handover and no customer refunds in the first version; if prepayment/refunds are required, revise the payment model before implementation.
-Actual menu, standard recipes, preparation yields, units, purchase packaging and opening stock. Recipe deduction is an estimate of consumption, not batch production tracking.
-Actual employee salaries, monthly payment practices, supplier invoice rules and maintenance contacts.
-Applicable tax configuration, printable receipt contents and backup responsibility.
-Whether expiry/batch tracking is required before operational use; this version does not manage it.
-Record which details the client confirms and which remain project assumptions. The initial two-branch layout is a deployment choice, not a hard-coded database row limit.
+Implementation deliverables also include a connection configuration file, database setup/sample-data script, runnable Java application and a documented backup/restore procedure. This model is a design specification, not a claim that those features are implemented. Formal sample-query requirements and the drawn ER diagram must be prepared separately
