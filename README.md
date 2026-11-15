@@ -13,19 +13,18 @@ This file describes the data model: every entity, its attributes, and every rela
 
 ## Contents
 
-[What the system does](#1-what-the-system-does)
-[How to read this file](#2-how-to-read-this-file)
-[Entity overview](#3-entity-overview)
-[Entities and attributes](#4-entities-and-attributes)
-[Relationships](#5-relationships)
-[Many-to-many relationships](#6-many-to-many-relationships)
-[Notes for drawing the ER diagram](#7-notes-for-drawing-the-er-diagram)
-[Design rules](#8-design-rules)
-[Derived attributes](#9-derived-attributes)
-[Fixed value lists](#10-fixed-value-lists)
-[Out of scope](#11-out-of-scope)
-[Users, screens and reports](#12-users-screens-and-reports)
-[Decisions to validate with the restaurant](#13-decisions-to-validate-with-the-restaurant)
+1. [What the system does](#1-what-the-system-does)
+2. [How to read this file](#2-how-to-read-this-file)
+3. [Entity overview](#3-entity-overview)
+4. [Entities and attributes](#4-entities-and-attributes)
+5. [Relationships](#5-relationships)
+6. [Many-to-many relationships](#6-many-to-many-relationships)
+7. [Notes for drawing the ER diagram](#7-notes-for-drawing-the-er-diagram)
+8. [Design rules](#8-design-rules)
+9. [Derived attributes](#9-derived-attributes)
+10. [Fixed value lists](#10-fixed-value-lists)
+11. [Out of scope](#11-out-of-scope)
+
 ---
 
 ## 1. What the system does
